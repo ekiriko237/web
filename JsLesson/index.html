@@ -1,0 +1,42 @@
+<HTML>
+	<HEAD>
+		<script>
+			var arrPrice = {"ハンバーガー":120,"チーズバーガー":140,"ポテトLL":260,"アップルパイ":210,"スプライトライム":150,"ドデカミン":140}
+		</script>
+	</HEAD>
+	<body>
+		<H1> test hello html</H1>
+		<BR>
+		<BR>
+			<p id="do1">yyyy</p>
+			<input type="button" value="Click" onclick="myfunc()">
+		<!--	<video src="./video/testV1.mp4" autoplay type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			<p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+			</video>
+			-->
+		<script>
+			window.onload = function(){
+				myfunc();
+			}
+		</script>
+		<script>
+			var myfunc = function(){
+			var dt = new Date();
+			var wyyy = document.getElementById("do1");
+			wyyy.style = "color:red;font-size:48px;";
+			//alert(wyyy.innerHTML);
+			wyyy.innerHTML = dt.getFullYear() + "/" + dt.getDate();
+			for(var k in arrPrice){
+				document.writeln( key );
+			}
+			Object.key(arrPrice).forEach( function(value){
+				document.writeln(value + ':' + this[value]);
+			},arrPrice)
+
+		//	document.writeln(dt);
+		//	document.writeln("<BR>");
+		//	document.writeln(dt.getFullYear());
+			}
+		</script>
+	</body>
+</HTML>

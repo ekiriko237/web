@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form lesson1</title>
+</head>
+<body>
+<!--  PageA CoreA
+	  PageB CoreB
+ -->
+	<label>ページ間でデータを受け渡す</label>
+	<form action="CoreB.html" method="get">
+		<label>形状</label>
+		<input type='text' id='textKeijyo' name='textKeijyo'>
+		<label>高さ</label>
+		<input type='number' id='numTate' name='numTate'>
+		<label>底辺</label>
+		<input type='number' id='numYoko' name='numYoko'>
+		<input type='submit' value='計算' id='btnYoko'>
+	</form>
+</body>
+</html>

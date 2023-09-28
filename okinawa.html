@@ -1,0 +1,25 @@
+<HTML>
+	<body>
+		<H1> 沖縄評価研修会ビデオ</H1>
+		<BR>
+		<BR>
+			<p id="do1">yyyy</p>
+			<input type="button" value="Click" onclick="myfunc()">
+			<video src="./video/okinawa0427.mp4" autoplay controls type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+			<p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+			</video>
+		<script>
+			var myfunc = function(){
+			var dt = new Date();
+			var wyyy = document.getElementById("do1");
+			wyyy.style = "color:red;font-size:48px;";
+			//alert(wyyy.innerHTML);
+			wyyy.innerHTML = dt.getFullYear() + "/" + dt.getDate();
+			
+		//	document.writeln(dt);
+		//	document.writeln("<BR>");
+		//	document.writeln(dt.getFullYear());
+			}
+		</script>
+	</body>
+</HTML>

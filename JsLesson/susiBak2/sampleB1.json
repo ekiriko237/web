@@ -1,0 +1,46 @@
+[
+		{
+			//にぎり
+						detail:
+							[
+								 {text:'', img:'./img/190911_398cyutoro.png',name:'まぐろ',price:'\\211'}
+								,{text:'', img:'./img/190911_237hotate.png',name:'ホタテ',price:'\\212'}
+								,{text:'', img:'./img/170301_405nasu.png',name:'なす',price:'\\213'}
+								,{text:'', img:'./img/161109_175kohada.png',name:'こはだ',price:'\\214'}
+							]
+		}
+		,
+		{
+			//軍艦まき
+						detail:
+						[
+								 {text:'', img:'./img/501_sikura.png',name:'いくら',price:'\\311'}
+								,{text:'', img:'./img/511_snegimaguro.png',name:'ネギマグロ',price:'\\312'}
+								,{text:'', img:'./img/080_5.jpg ',name:'name',price:'\\313'}
+								,{text:'', img:'./img/080_5.jpg ',name:'name',price:'\\314'}
+						]
+		}
+		,{
+			//汁
+						detail:
+						[
+								 {text:'', img:'./img/160705_907asariakadasi.png',name:'あさり',price:'\\411'}
+								,{text:'', img:'./img/161109_900akadasi.png',name:'赤だし',price:'\\4121'}
+								,{text:'', img:'./img/080_5.jpg ',name:'name',price:'\\413'}
+								,{text:'', img:'./img/080_5.jpg ',name:'name',price:'\\414'}
+
+						]
+		}
+		,{
+			//デザート
+						detail:
+						[
+								 {text:'', img:'./img/210421_969tapioka.png',name:'タピオカ',price:'\\511'}
+								,{text:'', img:'./img/210721_2355kakigouri.png',name:'かき氷',price:'\\5121'}
+								,{text:'', img:'./img/210721_2403meron.png',name:'メロン',price:'\\513'}
+								,{text:'', img:'./img/080_5.jpg ',name:'name',price:'\\514'}
+
+						]
+						}
+		]
+		

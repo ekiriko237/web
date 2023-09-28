@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script>
+		var arrPrice = {"ハンバーガー":120,"チーズバーガー":140,"ポテトLL":260,"アップルパイ":210,"スプライトライム":150,"ドデカミン":140};
+	</script>
+	<title>test1 html</title>
+</head>
+<body>
+	<H1>tt</H1>
+	<span id="sp1">hello web</span>
+	test hello 11
+	<p id="do1">yyyy</p>
+	<input type="button" value="Click" onclick="myfunc()">
+	<select id="sl10" name="select1"></select>
+
+		<script> /*
+			window.onload = function(){
+				myfunc();
+			} */
+		</script>
+		<script>
+		debugger;
+
+			var myfunc = function(){
+				$('h1').text('javvvvvva');
+				$('h1').css({"color":"red"});
+				$('#sp1').css({"color":"red"});
+			var dt = new Date();
+			var wyyy = document.getElementById("do1");
+			let sel = document.getElementById("sl10");
+			document.createElement('option');
+// https://techacademy.jp/magazine/27133
+			wyyy.style = "color:red;font-size:48px;";
+			//alert(wyyy.innerHTML);
+			wyyy.innerHTML = dt.getFullYear() + "/" + dt.getDate();
+			console.table(arrPrice);
+			for(var k in arrPrice){
+				document.writeln( k + "<BR>" );
+			}
+			Object.keys(arrPrice).forEach( function(value){
+				wyyy.innerHTML = (value + ':' + this[value]);
+			},arrPrice)
+
+			document.writeln("end");
+		//	document.writeln("<BR>");
+		//	document.writeln(dt.getFullYear());
+			}
+		</script>
+</body>
+</html>
